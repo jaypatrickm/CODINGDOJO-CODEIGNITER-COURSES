@@ -1,0 +1,71 @@
+/** {
+	border: 1px dotted red;
+}*/
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #323232;
+}
+label {
+	display: block;
+	margin: 0 0 2px 0;
+}
+input, textarea {
+	font-size: 1em;
+}
+input, textarea, div#add_form, table, th, td {
+	border: 1px solid #CECECE;
+}
+input {
+	font-size: 1em;
+	width: 460px;
+	padding: 4px;
+}
+textarea {
+	resize: none;
+	padding: 4px;
+}
+div#add_form {
+	width: 520px;
+	box-shadow: 2px 2px 5px #D5D5D5;
+	border-radius: 2px;
+}
+div#course_table {
+	width: 720px;
+}
+div#add_form, div#course_table{
+	margin: 25px;
+}
+div#add_form form {
+	margin: 0 auto;
+	width: 502px;
+	padding-bottom: 15px;
+}
+form div {
+	padding: 10px 15px;
+}
+h2 {
+	padding-left: 24px;
+}
+input#add_button 
+{
+	padding: 9px 0;
+	width: 471px;
+}
+table 
+{
+	border-collapse:collapse;
+	box-shadow: 2px 2px 5px #D5D5D5;
+	border-radius: 2px;
+}	
+th {
+	border-bottom: 5px;
+}
+td, th {
+	padding: 10px;
+}
+div.error {
+	background-color: red;
+}
+div.shape{
+	border:1px solid #ccc;
+}
